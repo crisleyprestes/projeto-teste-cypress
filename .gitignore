@@ -1,0 +1,9 @@
+#Cypress
+cypress/screenshots
+cypress/videos
+
+#Intellij
+.idea
+
+#Node
+node_modules
