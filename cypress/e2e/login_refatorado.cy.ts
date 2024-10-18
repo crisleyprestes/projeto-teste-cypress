@@ -1,4 +1,4 @@
-import { erro, mensagem, tituloPagina, url, usuario } from "../support/constantes"
+import { erro, mensagem, url, usuario } from "../support/constantes"
 
 describe('Login', () => {
 
