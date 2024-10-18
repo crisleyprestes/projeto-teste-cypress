@@ -27,12 +27,12 @@ jobs:
           ${{ runner.os }}-cypress-
 
     - name: Install Cypress binary
-      run: npx cypress install
+      run: |
+        chmod +x ./node_modules/.bin/cypress
+        npx cypress install
 
     - name: Grant execute permissions to Cypress
       run: chmod +x ./node_modules/.bin/cypress
 
     - name: Run Cypress tests
       run: npx cypress run
-
-
