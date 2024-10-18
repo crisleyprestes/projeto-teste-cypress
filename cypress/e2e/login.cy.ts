@@ -54,6 +54,6 @@ describe('Login', () => {
         cy.get('[type="submit"]').click()
         cy.get('[class="flash error"]')
             .should('be.visible')
-            .and('contain.text', 'Your username/password is invalid!')
+            .and('contain.text', 'Your username is invalid!')
     })
 })
